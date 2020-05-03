@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.gowanandroid.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/systemFragment"
+        android:name="com.example.gowanandroid.ui.SystemFragment"
+        android:label="fragment_system"
+        tools:layout="@layout/fragment_system" />
+    <fragment
+        android:id="@+id/discoveryFragment"
+        android:name="com.example.gowanandroid.ui.DiscoveryFragment"
+        android:label="fragment_discovery"
+        tools:layout="@layout/fragment_discovery" />
+    <fragment
+        android:id="@+id/navigationFragment"
+        android:name="com.example.gowanandroid.ui.NavigationFragment"
+        android:label="fragment_navigation"
+        tools:layout="@layout/fragment_navigation" />
+    <fragment
+        android:id="@+id/mineFragment"
+        android:name="com.example.gowanandroid.ui.mine.MineFragment"
+        android:label="fragment_mine"
+        tools:layout="@layout/fragment_mine" />
+</navigation>

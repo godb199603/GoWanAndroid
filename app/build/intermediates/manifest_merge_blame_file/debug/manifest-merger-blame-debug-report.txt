@@ -1,0 +1,138 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.gowanandroid"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:5:22-76
+13
+14    <application
+14-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:7:5-36:19
+15        android:name="com.example.gowanandroid.App"
+15-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:8:9-28
+16        android:allowBackup="true"
+16-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:9:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7711ccc7e3ed8c5e6fb69aad4cdd6644\core-1.2.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:10:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:11:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:12:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:13:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:14:9-40
+26        <activity
+26-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:15:9-21:20
+27            android:name="com.example.gowanandroid.MainActivity"
+27-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:15:19-47
+28            android:theme="@style/AppTheme.NoActionBar" >
+28-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:16:13-56
+29            <intent-filter>
+29-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:17:13-20:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:18:17-68
+30-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:18:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:19:17-76
+32-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:19:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:22:9-26:52
+36            android:name="com.example.gowanandroid.ui.login.LoginActivity"
+36-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:23:13-51
+37            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation"
+37-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:24:13-101
+38            android:launchMode="singleTask"
+38-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:25:13-44
+39            android:screenOrientation="portrait" />
+39-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:26:13-49
+40        <activity
+40-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:27:9-30:47
+41            android:name="com.example.gowanandroid.ui.detail.DetailActivity"
+41-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:28:13-53
+42            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation"
+42-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:29:13-101
+43            android:launchMode="singleTask" />
+43-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:30:13-44
+44        <activity
+44-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:31:9-34:47
+45            android:name="com.example.gowanandroid.ui.history.HistoryActivity"
+45-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:32:13-55
+46            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation"
+46-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:33:13-101
+47            android:launchMode="singleTask" />
+47-->C:\Users\Administrator\Desktop\communication-platform-master\Android\GoWanAndroid\app\src\main\AndroidManifest.xml:34:13-44
+48
+49        <service
+49-->[androidx.room:room-runtime:2.2.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4ea380cbeb342fc6297393bae405672\room-runtime-2.2.3\AndroidManifest.xml:25:9-27:40
+50            android:name="androidx.room.MultiInstanceInvalidationService"
+50-->[androidx.room:room-runtime:2.2.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4ea380cbeb342fc6297393bae405672\room-runtime-2.2.3\AndroidManifest.xml:26:13-74
+51            android:exported="false" />
+51-->[androidx.room:room-runtime:2.2.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4ea380cbeb342fc6297393bae405672\room-runtime-2.2.3\AndroidManifest.xml:27:13-37
+52
+53        <provider
+53-->[com.just.agentweb:agentweb:4.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a6ed8997e34f0f5213a5f480cf6c653c\jetified-agentweb-4.1.2\AndroidManifest.xml:12:9-20:20
+54            android:name="com.just.agentweb.AgentWebFileProvider"
+54-->[com.just.agentweb:agentweb:4.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a6ed8997e34f0f5213a5f480cf6c653c\jetified-agentweb-4.1.2\AndroidManifest.xml:13:13-66
+55            android:authorities="com.example.gowanandroid.AgentWebFileProvider"
+55-->[com.just.agentweb:agentweb:4.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a6ed8997e34f0f5213a5f480cf6c653c\jetified-agentweb-4.1.2\AndroidManifest.xml:14:13-72
+56            android:exported="false"
+56-->[com.just.agentweb:agentweb:4.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a6ed8997e34f0f5213a5f480cf6c653c\jetified-agentweb-4.1.2\AndroidManifest.xml:15:13-37
+57            android:grantUriPermissions="true" >
+57-->[com.just.agentweb:agentweb:4.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a6ed8997e34f0f5213a5f480cf6c653c\jetified-agentweb-4.1.2\AndroidManifest.xml:16:13-47
+58            <meta-data
+58-->[com.just.agentweb:agentweb:4.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a6ed8997e34f0f5213a5f480cf6c653c\jetified-agentweb-4.1.2\AndroidManifest.xml:17:13-19:60
+59                android:name="android.support.FILE_PROVIDER_PATHS"
+59-->[com.just.agentweb:agentweb:4.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a6ed8997e34f0f5213a5f480cf6c653c\jetified-agentweb-4.1.2\AndroidManifest.xml:18:17-67
+60                android:resource="@xml/web_files_public" />
+60-->[com.just.agentweb:agentweb:4.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a6ed8997e34f0f5213a5f480cf6c653c\jetified-agentweb-4.1.2\AndroidManifest.xml:19:17-57
+61        </provider>
+62
+63        <activity
+63-->[com.just.agentweb:agentweb:4.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a6ed8997e34f0f5213a5f480cf6c653c\jetified-agentweb-4.1.2\AndroidManifest.xml:22:9-29:20
+64            android:name="com.just.agentweb.ActionActivity"
+64-->[com.just.agentweb:agentweb:4.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a6ed8997e34f0f5213a5f480cf6c653c\jetified-agentweb-4.1.2\AndroidManifest.xml:23:13-60
+65            android:configChanges="keyboardHidden|orientation|screenSize"
+65-->[com.just.agentweb:agentweb:4.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a6ed8997e34f0f5213a5f480cf6c653c\jetified-agentweb-4.1.2\AndroidManifest.xml:24:13-74
+66            android:exported="false"
+66-->[com.just.agentweb:agentweb:4.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a6ed8997e34f0f5213a5f480cf6c653c\jetified-agentweb-4.1.2\AndroidManifest.xml:25:13-37
+67            android:launchMode="standard"
+67-->[com.just.agentweb:agentweb:4.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a6ed8997e34f0f5213a5f480cf6c653c\jetified-agentweb-4.1.2\AndroidManifest.xml:26:13-42
+68            android:theme="@style/actionActivity"
+68-->[com.just.agentweb:agentweb:4.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a6ed8997e34f0f5213a5f480cf6c653c\jetified-agentweb-4.1.2\AndroidManifest.xml:27:13-50
+69            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+69-->[com.just.agentweb:agentweb:4.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a6ed8997e34f0f5213a5f480cf6c653c\jetified-agentweb-4.1.2\AndroidManifest.xml:28:13-72
+70        </activity>
+71
+72        <provider
+72-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\812d341c6c57992b442db213c4ec59a1\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+73            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+73-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\812d341c6c57992b442db213c4ec59a1\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+74            android:authorities="com.example.gowanandroid.lifecycle-process"
+74-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\812d341c6c57992b442db213c4ec59a1\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+75            android:exported="false"
+75-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\812d341c6c57992b442db213c4ec59a1\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+76            android:multiprocess="true" />
+76-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\812d341c6c57992b442db213c4ec59a1\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+77    </application>
+78
+79</manifest>
